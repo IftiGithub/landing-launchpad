@@ -1,0 +1,34 @@
+.bg1{
+    background-image: url(./Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.navstyle{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.btn{
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.banner{
+    text-align: center;
+    padding: 50px 0;
+}
+.action{
+    display: flex;
+    gap: 100px;
+    margin: 100px 0;
+}
+.action-left{
+    padding: 60px 190px;
+}
+.action-right{
+    border-radius: 48px;
+}
