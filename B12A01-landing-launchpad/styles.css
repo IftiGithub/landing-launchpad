@@ -17,17 +17,23 @@
     border-radius: 5px;
     padding: 10px 20px;
 }
+.btn:hover{
+    background-color:cyan;
+    color:black;
+    cursor: pointer;
+}
 .banner{
     text-align: center;
     padding: 50px 0;
 }
 .action{
     display: flex;
+    justify-content: space-between;
     gap: 100px;
-    margin: 100px 0;
+    margin: 50px 100px;
 }
 .action-left{
-    padding: 60px 190px;
+    padding: 100px 0;
 }
 .action-right{
     border-radius: 48px;
@@ -51,4 +57,39 @@
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     padding:0 0 50px 0;
+}
+.feedback{
+    display: flex;
+    justify-content: space-around;
+    margin : 50px 100px;
+    gap: 50px;
+}
+.feedback-items{
+    border-color:rgba(242, 237, 237, 1);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.reviewer-info{
+    display: flex;
+    gap: 20px;
+}
+.reviewer-avatar{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0;
+}
+.reviewer-name h3{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    margin: 0;
+}
+.reviewer-name p{
+    color:rgba(179, 179, 179, 1);
+    font-size: 15px;
+    margin: 0;
+}
+.stars{
+    color: orange;
 }
