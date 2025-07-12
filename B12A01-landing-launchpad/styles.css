@@ -121,4 +121,13 @@
     height: 80px;
     resize: none;
 }
+.footer-items{
+    background-color:whitesmoke;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 0 50px 0;
+}
 
